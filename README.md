@@ -12,10 +12,10 @@ These methods are used to find relevance of a given document to a query or retri
 
 We also implement PageRank to rank pages according to their popularity once we find a set of pages relevant to the user.
 
-We use Googles page rank method to rank pages which deals with spider traps and deadends.
+We use Google's page rank method to rank pages which deals with spider traps and deadends.
 
 Equation:
 
-http://www.ccs.neu.edu/home/ekanou/ISU535.09X2/Homeworks/hw.03_files/pr_formula.jpg
+![equation](http://www.ccs.neu.edu/home/ekanou/ISU535.09X2/Homeworks/hw.03_files/pr_formula.jpg)
 
 
