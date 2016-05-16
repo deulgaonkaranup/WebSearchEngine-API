@@ -46,7 +46,7 @@ Distance between documents and mean are calculated using Cosine Similarity (sinc
 The model for kNN is the entire training dataset. When a prediction is required for a unseen data instance, the kNN algorithm will search through the training dataset for the k-most similar instances. The prediction attribute of the most similar instances is summarized and returned as the prediction for the unseen instance. The decision rule in kNN can be written as:
 
 
-![equation](https://latex.codecogs.com/gif.latex?y%28x%2Cc_i%29%20%3D%20%5Csum%20sim%28x%2Cd_j%29%20.%20y%28d_j%2Cc_i%29)
+![equation](https://latex.codecogs.com/gif.latex?knn%28x%2Cc_i%29%20%3D%20%5Csum_%20sim%28x%2Cd_j%29%20.%20knn%28x_i%2C%5Cmu_j%29)
 
 
 These methods are used to find relevance of a given document to a query or retrieving a set a pages.
